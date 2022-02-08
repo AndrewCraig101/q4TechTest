@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+/* I'm a bit confused as to why all of these styles were preceded by "#q4Wrapper" I would have removed it entirely but I changed the symbol to "Main" in case this is a test about specificity */
+
+main {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+main h1, main h3 {
+  margin: 0;
+}
+main h1 {
+  font-size: 48px;
+}
+main h3 {
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+main header, main footer {
+  background-color: #22272B;
+}
+main header {
+  padding: 20px;
+}
+main footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+main article {
+  text-align: center;
+}
+main article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+main a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+  width: 90%;
+}
+main a:hover {
+  transform: scale(1.05);
+}
+main a span {
+  opacity: 0.5;
+}
+
+.layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.layout_container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Begin styling the report items here! */
+
+/* Grid styles */
+
+/* .container {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-gap: 1rem;
+} */
+
+.reports {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.reports_cover {
+  width: 100%;
+  height: auto;
+}
+
+.reports_docs {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.reports_title span {
+  color: lightgrey;
+
+  /* Making sure the file_size and file_type go column instead of wrap */
+  white-space: nowrap;
+}
+
+h3 a {
+  width: 100%;
+}
+
+.reports_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: calc(33% - 60px);
+  margin: 0px 30px 0px 30px;
+  /* Ensuring reports are 30px apart */
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+  article footer .reports_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .reports .reports_item {
+    width: calc(45% - 60px);
+  }
+
+}
+
+@media (max-width: 600px) {
+  .reports .reports_item {
+    width: calc(85% - 60px);
+  }
+}
