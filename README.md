@@ -2,6 +2,10 @@
 
 ## Front-end Developer Assessment
 
+** Thank you for inviting me to do the Q4 tech test! I've had my eye on Q4 since I graduated Juno. It would be amazing to work with so many other grads from that community. I am also very passionate about building eFinance, eCommerce and eAdmin software so I think I would be a good fit!**
+
+** Site tested on Chrome, Firefox, Safari, Edge, and IE 11 via https://www.browserstack.com/ ** 
+
 Welcome to the front-end developer assessment package.
 Below, you will find list criteria used to determine your development skill level:
 

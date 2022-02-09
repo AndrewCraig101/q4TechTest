@@ -1,4 +1,4 @@
-// ìmport React from 'react';
+// One small syntax error corrected on this page and a span containing file-size and file_type added on line 17, 18.
 
 var reportsWidget = {
     options: {

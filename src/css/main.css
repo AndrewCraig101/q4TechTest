@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* I'm a bit confused as to why all of these styles were preceded by "#q4Wrapper" I would have removed it entirely but I changed the symbol to "Main" in case this is a test about specificity */
+/* I wasn't sure why the styles were preceded by "#q4Wrapper" I would have removed it but I changed the symbol to "Main" in case this is a test about specificity */
 
 main {
   background-color: #2A3035;
@@ -65,7 +65,6 @@ main a span {
 
 .layout_container {
   display: flex;
-  justify-self: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -73,21 +72,13 @@ main a span {
 
 /* Begin styling the report items here! */
 
-/* Grid styles */
-
-/* .container {
-  display: grid;
-  grid-template-columns: 10rem 10rem 10rem;
-  grid-gap: 1rem;
-} */
-
-.reports {
+/* .reports {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-}
+} */
 
 .reports_cover {
   width: 100%;
@@ -115,8 +106,8 @@ h3 a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: calc(33% - 60px);
-  margin: 0px 30px 0px 30px;
+  width: calc(33% - 30px);
+  margin: 0px 15px
   /* Ensuring reports are 30px apart */
 }
 
