@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* I wasn't sure why the styles were preceded by "#q4Wrapper" I would have removed it but I changed the symbol to "Main" in case this is a test about specificity */
+/* I wasn't sure why the styles were preceded by "#q4Wrapper" I  removed it but then changed the symbol to "Main" in case this is about specificity */
 
 main {
   background-color: #2A3035;
@@ -72,14 +72,6 @@ main a span {
 
 /* Begin styling the report items here! */
 
-/* .reports {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-} */
-
 .reports_cover {
   width: 100%;
   height: auto;
@@ -93,7 +85,7 @@ main a span {
 .reports_title span {
   color: lightgrey;
 
-  /* Making sure the file_size and file_type go column instead of wrap */
+  /* Making sure the file_size and file_type go column instead of wrap 1/2 */
   white-space: nowrap;
 }
 
@@ -119,19 +111,21 @@ h3 a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+     /* Making sure the file_size and file_type go column instead of wrap 2/2 */
   }
 }
 
 @media (max-width: 768px) {
 
-  .reports .reports_item {
-    width: calc(45% - 60px);
+ main section .reports_item {
+    width: calc(50% - 30px);
+    
   }
 
 }
 
 @media (max-width: 600px) {
-  .reports .reports_item {
-    width: calc(85% - 60px);
+  main section .reports_item {
+    width: calc(100% - 30px);
   }
 }

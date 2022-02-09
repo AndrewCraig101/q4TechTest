@@ -10,6 +10,9 @@
     "start": "http-server ./src"
   },
   "dependencies": {
-    "react": "^17.0.2"
+    "@react-css/grid": "^1.4.6",
+    "bootstrap": "^5.1.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2"
   }
 }
