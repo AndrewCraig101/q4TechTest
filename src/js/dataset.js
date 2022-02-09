@@ -1,4 +1,4 @@
-// If more reports were to be added to this page they would be added as objects to the end of this reportData array. If the color scheme is consistant it would begin with purple, then constelation blue then web blue and repeat
+// If more reports were to be added to the page they would be added as objects to the end of this reportData array. If the color scheme is consistant it would begin with purple, then constelation blue then web blue and repeat.
 
 var reportData = [
     {
